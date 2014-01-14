@@ -2,6 +2,8 @@
  
 ##Learning Competencies 
 
+* Use inheritance to model problems, and effectively implement inheritance in ruby
+
 ##Summary 
 
  Inheritance is a design pattern that can be found in almost every modern programming language in some form or another.
@@ -15,15 +17,15 @@ Here's a simple explanation from [Programming Ruby](http://pragprog.com/book/rub
 
 Additionally, you may want to [read about inheritance in Ruby](http://rubylearning.com/satishtalim/ruby_inheritance.html) to get a sense for how it works.
 
-## Objectives
+##Releases
 
-### A bunch of animals
+###Release 0 : A bunch of animals
 
 Define 7 empty classes: `Animal` `Mammal`, `Amphibian`, `Primate`, `Frog`, `Bat`, and `Chimpanzee`.
 
 Set up an inheritance structure that makes sense given the phylogenetic position of the animal in relation to the others.
 
-### Add some properties
+#### Add some properties
 
 Add instance variables and methods to your different classes.  These could include things like `@num_legs` or `warm_blooded?`.  Make up your own.
 
@@ -31,17 +33,15 @@ The write a script to prove that your inheritance structure works.  If you assig
 
 Hint: you may have to define some reader methods.
 
-### Extra Credit: Super powers with a Module
-
-This objective is really just for fun.
+###Release 1 : Super powers with a Module (optional)
 
 Create a module `SuperPowers` with some crazy (and perfectly useless) features like a `use_laser_vision` method and a `magic_points` reader and writer method.
 
 Then use your module as a mixin for one or more of your classes. 
 
-##Releases
-###Release 0 
 
-##Optimize Your Learning 
+<!-- ##Optimize Your Learning  -->
 
 ##Resources
+
+* [read about inheritance in Ruby](http://rubylearning.com/satishtalim/ruby_inheritance.html)
