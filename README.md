@@ -25,6 +25,8 @@ Define 7 empty classes: `Animal` `Mammal`, `Amphibian`, `Primate`, `Frog`, `Bat`
 
 Set up an inheritance structure that makes sense given the phylogenetic position of the animal in relation to the others.
 
+**Note:** You should time box the set up of this inheritance structure. You do not need to create the perfect taxonomy.
+
 #### Add some properties
 
 Add instance variables and methods to your different classes.  These could include things like `@num_legs` or `warm_blooded?`.  Make up your own.
@@ -33,11 +35,11 @@ The write a script to prove that your inheritance structure works.  If you assig
 
 Hint: you may have to define some reader methods.
 
-###Release 1 : Super powers with a Module (optional)
+###Release 1 : Super powers with a Module
 
 Create a module `SuperPowers` with some crazy (and perfectly useless) features like a `use_laser_vision` method and a `magic_points` reader and writer method.
 
-Then use your module as a mixin for one or more of your classes. 
+Then use your module as a mixin for one or more of your classes.
 
 
 <!-- ##Optimize Your Learning  -->
