@@ -1,10 +1,10 @@
 # Design Drill Classical Inheritance 
  
-##Learning Competencies 
+## Learning Competencies 
 
 * Use inheritance to model problems, and effectively implement inheritance in ruby
 
-##Summary 
+## Summary 
 
  Inheritance is a design pattern that can be found in almost every modern programming language in some form or another.
 
@@ -17,9 +17,9 @@ Here's a simple explanation from [Programming Ruby](http://pragprog.com/book/rub
 
 Additionally, you may want to [read about inheritance in Ruby](http://rubylearning.com/satishtalim/ruby_inheritance.html) to get a sense for how it works.
 
-##Releases
+## Releases
 
-###Release 0 : A bunch of animals
+### Release 0 : A bunch of animals
 
 Define 7 empty classes: `Animal` `Mammal`, `Amphibian`, `Primate`, `Frog`, `Bat`, and `Chimpanzee`.
 
@@ -35,7 +35,7 @@ The write a script to prove that your inheritance structure works.  If you assig
 
 Hint: you may have to define some reader methods.
 
-###Release 1 : Super powers with a Module
+### Release 1 : Super powers with a Module
 
 Create a module `SuperPowers` with some crazy (and perfectly useless) features like a `use_laser_vision` method and a `magic_points` reader and writer method.
 
@@ -44,6 +44,6 @@ Then use your module as a mixin for one or more of your classes.
 
 <!-- ##Optimize Your Learning  -->
 
-##Resources
+## Resources
 
 * [read about inheritance in Ruby](http://rubylearning.com/satishtalim/ruby_inheritance.html)
