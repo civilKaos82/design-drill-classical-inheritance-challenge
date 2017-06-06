@@ -31,7 +31,7 @@ Set up an inheritance structure that makes sense given the phylogenetic position
 
 Add instance variables and methods to your different classes.  These could include things like `@num_legs` or `warm_blooded?`.  Make up your own.
 
-The write a script to prove that your inheritance structure works.  If you assign `@num_legs = 2` in the `Primate` class, does an instance of `Chimpanzee` have the same variable and value?
+Then write a script to prove that your inheritance structure works.  If you assign `@num_legs = 2` in the `Primate` class, does an instance of `Chimpanzee` have the same variable and value?
 
 Hint: you may have to define some reader methods.
 
